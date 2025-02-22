@@ -4,16 +4,47 @@
 		<title>single page cv</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:title" content="Single Page CV" />
+		<meta property="og:type" content="text" />
+		<meta property="og:url" content="http://www.KiviLoveroseCV.com" />
+		<meta property="og:description" content="My personal CV." />
+		<style>
+			body {background-color: #eee; font-family: arial, serif;}
+			sections {margin: 0 auto;}
+			p {margin: 0.25rem 0;}
+			.header {margin: 1rem 0; color: green;}
+			#school_name {font-size: 1.15rem; color: blue;}
+		</style>
 	</head>
 	<body>
 		<main>
+			<hr>
 			<header id="header">
 				<h1 id="name">Kivi Loverose</h1>
-				<p id="job_title">Junior Frontend Developer</p>
+				<p id="job_title" class="header">Junior Frontend Developer</p>
 			</header>
-			<section id="skills">
-				
+			<section id="information">
+				<p>1104, Portchester Castle Path</p>
+				<p>Pflugerville, TX 78660</p>
+				<p>(512)484-1430</p>
+				<p>kiviloverose@gmail.com</p>
 			</section>
+			<section id="skills">
+				<p id="skills_header" class="header">Skills</p>
+				<p>HTML, CSS, JavaScript, Accessibility, Responsive Web Design, Technical Writing</p>
+			</section>
+			<section id="education">
+				<p id="education_header" class="header">Education</p>
+				<p id="school_name">Austin Community College, TX - Associates of Science</p>
+				<p>August 2020 to December 2023</p>
+			</section>
+			<section id="socials">
+				<p id="socials_header" class="header">Socials</p>
+				<p>
+					<a href="https://github.com/Jarjingbing" target="_blank">github</a>
+				</p>
+			</section>
+			<hr>
 		</main>
 	</body>
 </html>
